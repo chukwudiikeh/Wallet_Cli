@@ -1,0 +1,12 @@
+[package]
+name = "wallet_cli"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+arboard = "3.6.1"
+bitcoincore-rpc = "0.19"
+dotenvy = "0.15.7"
+indicatif = "0.18.6"
+ratatui = "0.30"
+wallet_lib = { version = "0.1.0", path = "../wallet_lib" }
